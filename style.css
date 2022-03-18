@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aleksandras Store</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+* { 
+margin:0px;
+padding:0px;
+}
+
+#center {
+margin:auto;
+width: 1400px;
+height: 1900px;
+background-color:rgb(253, 162, 205);
+border: solid 4px rgb(216, 121, 153);
+}
+
+body { 	
+background-image: url(kirschblüten.gif);
+background-repeat:repeat-y;
+background-size: cover;
+height: 1000px;
+background-color:#f8b8da;
+}
+
+#Login{
+border-bottom:4px  double color:rgb(216, 121, 153);
+border-top:4px  double color:rgb(216, 121, 153);
+padding:5px 325px;
+font-family:Arial, Helvetica, sans-serif bold;
+background-color: rgb(245, 175, 210);
+font-size:  0.9em;
+background-color: rgb(255, 145, 196);
+text-align:right;
+}
+
+#Login li{
+display:inline;
+margin:25px;
+}
+
+#Login a{
+display:inline;
+color:#FFF;
+text-decoration:none;
+}
+
+#Login a:hover{
+color: #fa5aaf;
+background-color: #fff;
+}
+
+#SaleBanner {
+height:50px;
+background-color: wheat;
+text-align: center;
+overflow: hidden;
+font-family:'Courier New', Courier, monospace;
+} 
+
+#logo {
+height:150px;
+background-color: rgb(255, 145, 196);
+text-align: center;
+color:white;
+font-family: 'Courier New', Courier, monospace;
+font-size:3.5em;
+background-image: url(WellenDunkelPink.jpeg);
+overflow: hidden;
+}
+
+#navi {
+border-bottom:4px  double color:rgb(216, 121, 153);
+border-top:4px  double color:rgb(216, 121, 153);
+padding:20px 325px;
+font-family:Arial, Helvetica, sans-serif bold;
+background-color: rgb(245, 175, 210);
+font-size:  1.7em;
+background-color: rgb(255, 145, 196);
+}
+
+#navi li {
+display:inline;
+margin:25px;
+text-align: center;
+}
+
+#navi a { 
+display:inline;
+color:#FFF;
+text-decoration:none;			
+}
+
+#navi a:hover {
+				
+color: #fa5aaf;
+background-color: #fff;
+}
+
+#linkeSpalte {
+float:left;
+width:650px;
+padding: 4px;
+margin: 10px 10px 10px 25px;
+text-align: center;			
+}
+
+#linkeSpaltePreis {
+float:left;
+width:500px;
+padding: 4px;
+margin: 10px 10px 10px 50px;
+text-align: center;
+}
+
+#linkeSpalte li{
+display:inline;
+margin:25px;
+text-align: center;
+}
+
+#linkeSpalte a {
+display:inline;
+color:#FFF;
+text-decoration:none;
+}
+
+#linkeSpalte a:hover{
+color: #fa5aaf;
+background-color: #fff;
+}
+
+#rechteSpalte {
+float:left;
+padding:4px;
+margin:10px;
+width:600px;
+text-align: center;
+}
+
+#rechteSpalte li{
+display:inline;
+margin:25px;
+text-align: center;
+}
+
+#rechteSpalte a {
+display:inline;
+color:#FFF;
+text-decoration:none;
+}
+
+#rechteSpalte a:hover{
+color: #fa5aaf;
+background-color: #fff;
+}
+
+#rechteSpaltePreis{
+float:left;
+width:400px;
+padding: 4px;
+margin: 10px 10px 10px 80px;
+text-align: center;
+}
+
+#footer {
+clear:both;
+height:120px;
+background-color:rgb(246, 161, 204);
+background-image: url(WellenDunkelPink.jpeg);
+background-repeat: repeat-y;
+text-align:left;
+position: relative;
+top:-48px;
+bottom:60px;
+}
+
+#footer li{
+display:inline;
+margin:25px;
+text-align: center;
+}
+
+#footer a{
+display:inline;
+color:#FFF;
+text-decoration:none;
+font-size:1.4em;
+}
+
+#footer a:hover{
+color: #fa5aaf;
+background-color: #fff;
+}
+
+
